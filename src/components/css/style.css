@@ -1,0 +1,130 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css);
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.box {
+  background-color: black;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  /* display: flex;
+    justify-content: center; */
+}
+.box-info {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+}
+.inp {
+  width: 20rem;
+  height: 2rem;
+  border-radius: 10px;
+  border-style: none;
+}
+.btn {
+  position: absolute;
+  top: 0;
+  left: 75%;
+  height: 2rem;
+  width: 5rem;
+  background-color: blue;
+  border-style: none;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.arc {
+  background-color: white;
+  position: absolute;
+  height: 20rem;
+  width: 35%;
+  top: 35%;
+  left: 35%;
+}
+.inside-arc {
+  height: 120px; 
+  
+  position: relative;
+}
+.first-icon{
+    position:absolute;
+    padding-left:25%;
+    top: 5%;
+    font-size: 4rem;
+}
+.Temp {
+  background-color: black;
+  width: 65%;
+  color: white;
+  height: 35%;
+  font-size: 3rem;
+  padding-top: 1rem;
+  position: relative;
+}
+.status {
+  position: absolute;
+  color: white;
+  top: 0;
+  left: 50%;
+  font-size: 2rem;
+  padding-top: 1rem;
+}
+.para {
+  font-size: 1rem;
+}
+.date {
+  background-color: lightseagreen;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 54%;
+  height: 100%;
+  font-size: 26px;
+  padding-top: 15px;
+}
+.last-sec {
+  position: relative;
+  color: white;
+}
+
+.icon {
+  background-color: lightseagreen;
+  width: 25%;
+  position: absolute;
+}
+.icon-2 {
+  background-color: lightseagreen;
+  width: 25%;
+  left: 25%;
+  position: absolute;
+}
+.icon-3 {
+  background-color: lightseagreen;
+  width: 25%;
+  left: 50%;
+  position: absolute;
+}
+.icon-4 {
+  background-color: lightseagreen;
+  width: 25%;
+  left: 75%;
+  position: absolute;
+}
+.wi {
+  position: absolute;
+  height: 1rem;
+ color: black;
+  width: 10%;
+  margin-top: 2rem;
+  left: 10%;
+}
+.section {
+  position: absolute;
+  left: 35%;
+  margin-top: 30px;
+  color: black;
+  font-size: 10px;
+}
